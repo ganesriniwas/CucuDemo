@@ -29,6 +29,8 @@ public class Login extends Base {
 		lg.trace("Successfully reached Home Page");
 		methodName=Thread.currentThread().getStackTrace()[1].getMethodName();
 		getScreenshotCopy(methodName);
+		//added by user Y
+		System.out.println("user Y");
 	}
 	@Test
 	public void login(String email, String password) throws IOException {
